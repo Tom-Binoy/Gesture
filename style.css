@@ -1,0 +1,115 @@
+body
+{
+    background-image: url("bg.png");
+}
+.h
+{
+    font-size: 30px;
+    background-color: rgb(8, 173, 101);
+    color: blue;
+    border-radius: 10px;
+    margin-top: 5;
+    margin-bottom: -10;
+}
+.h2
+{
+    font-size: 20px;
+    background-color: rgb(198, 112, 255);
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    
+    display: inline;
+    left: 50px;
+}
+.h3
+{
+    font-size: 15px;
+    background-color: rgb(250, 46, 46);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    
+    display: inline;
+}
+.swip
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(246, 188, 52);
+    font-size: 25px;
+    font-family: fantasy;
+    width: 300px;
+    display: inline;
+    margin-top: -80px;
+    float: left;
+}
+.swip1
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 2, 171);
+    font-size: 25px;
+    font-family: 'Lucida Sans Unicode',  sans-serif, 'Trebuchet MS';
+    color: aliceblue;
+    width: 300px;
+    margin-top: -80px;
+    float: right;
+    display: inline;
+
+}
+.d1
+{
+    border: 5px solid white;
+    border-radius: 15px;
+    background-color: black;
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+
+}
+.d2
+{
+    border: 5px solid white;
+    border-radius: 15px;
+    background-color: black;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+}
+#result
+{
+    border: 5px solid rgb(0, 0, 0);
+    background-color: chocolate;
+    font-family: 'Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 300px;
+    color: beige;
+    border-radius: 15px;
+}
+.btn1
+{   padding-right: 100;
+    margin-left: -300;
+    margin-bottom: -200;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(185, 123, 9);
+    color: rgb(242, 205, 132);
+}
+.btn2
+{   padding-left: 200;
+    margin-right: -300;
+    margin-bottom: -200;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(185, 9, 9);
+    color: rgb(242, 132, 132);
+}
+.i
+{
+    color: brown;
+    font-family: monospace;
+}

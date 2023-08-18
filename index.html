@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Blaka+Hollow&family=Fredoka+One&family=Mynerve&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <center>
+        <h1 class="btn btn-info h">GESTURE WEB APP<br>&#128077; &#128076; &#9996; &#129304; &#9994;</h1><hr> 
+        
+        <h2 class="h2">Take a Selfi of a Gesture to know about it's meaning.  <br><h3 class="h3">The Model Is Trained For Following Gesture &#128077; &#128076; &#9996;</h3></h2>
+        
+        <hr><label id="labelw" class="swip">There's Nothing😟</label>
+        <label class="swip1">Hi 👋 Its You!</label>
+      
+        <div id="result">The Following is Predition<label class="i"><br> Finding : Smile <br> confidence : 98.36%</label></div>
+      
+        <button id="get_emoji" class="btn btn-danger btn1" onclick="get_result()">Hey There!! Punch Me?	&#x1F609;</button>
+        <button id="snap" class="btn btn-warning btn2" onclick="snap()">Say Cheese!! </button>
+
+        <div id="emoji" class="d2" ></div>
+        <div id="cam" class="d1" ></div>
+    </center>
+
+    <script src="main.js"></script>
+  </body>
+</html>
